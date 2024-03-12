@@ -1,0 +1,89 @@
+.CatalogWr {
+    width: 100%;
+}
+
+.PageButtons {
+    clear: left;
+    /*top: 100%;*/
+    margin: 0 0 30px 35%;
+    width: 100%;
+}
+
+.PageButton {
+    background-color: rgba(219, 251, 240, 0.7);
+    border: solid 1px rgb(15, 91, 65);
+}
+
+.PageButton .active
+{
+    background-color: rgba(255, 255, 255, 0.7);
+    border: solid opx rgb(15, 91, 65);
+}
+
+.PageButton:hover {
+    background-color: rgba(185, 251, 228, 0.7);
+    box-shadow: 4px 5px 15px -5px #616161;
+    transform: scale(1.1);
+}
+
+.clearfix2:after
+{
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+   width: 700px;
+   min-height: 300px;
+   margin: 70px 60px 150px 70px;
+}
+
+.CategoryBookChoose
+{
+    float: left;
+    width: 600px;
+}
+
+.ImageBookCh
+{
+    width: 200px;
+    float: left;
+}
+
+.TextBookNameBookCh
+{
+    font-size: 24px;
+    font-family: Montserrat Alternates, sans-serif;
+    margin: 20px 0 0 50px;
+    font-weight: bolder;
+}
+
+.TextBookBookCh
+{
+    font-size: 20px;
+    margin: 20px 0 0 50px;
+} 
+
+.Icons3Choose
+{
+    width: 50px;
+    margin: 20px 0 0 50px;
+}
+
+.WrapCh
+{
+    margin: 60px;
+    height: 350px;
+}
+
+.pageActive
+{
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.noData
+{
+    padding: 60px;
+    font-size: 24px;
+}
