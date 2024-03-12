@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/React-app/static/css/main.3a75307c.css",
-    "main.js": "/React-app/static/js/main.164f50e1.js",
+    "main.js": "/React-app/static/js/main.0a880deb.js",
     "static/media/img4_19.jpg": "/React-app/static/media/img4_19.4175390c6a3551347ee2.jpg",
+    "static/media/book-2.jpg": "/React-app/static/media/book-2.4520bd9f529425a4ac92.jpg",
     "static/media/img2_1.jpg": "/React-app/static/media/img2_1.93b55ff10221d5cb791a.jpg",
     "static/media/img3_19.jpg": "/React-app/static/media/img3_19.73e8eac7fea5a32baeed.jpg",
     "static/media/img2_3.jpg": "/React-app/static/media/img2_3.c4f4abd5c2bec8b49443.jpg",
@@ -13,15 +14,19 @@
     "static/media/img3_4.jpg": "/React-app/static/media/img3_4.31db4f88d14ca5705b9a.jpg",
     "static/media/img3_16.jpg": "/React-app/static/media/img3_16.f7ccc08f772d67d9ae5c.jpg",
     "static/media/book-1.jpg": "/React-app/static/media/book-1.de56959de9457d7ba009.jpg",
+    "static/media/book-5.jpg": "/React-app/static/media/book-5.df1d062c80d7307e1c27.jpg",
     "static/media/img2_13.jpg": "/React-app/static/media/img2_13.08644f0dd6027c5dc541.jpg",
     "static/media/img2_6.jpg": "/React-app/static/media/img2_6.ff88d9f58d7917e45dd6.jpg",
     "static/media/img3_8.jpg": "/React-app/static/media/img3_8.48985354635dc65c43d8.jpg",
     "static/media/img3_3.jpg": "/React-app/static/media/img3_3.2ccef6ce47ebf70be3e4.jpg",
     "static/media/img4_16.jpg": "/React-app/static/media/img4_16.8a8429f12a4c3bbc1a74.jpg",
+    "static/media/book-3.jpg": "/React-app/static/media/book-3.38bd69c820c10c86b65e.jpg",
     "static/media/img3_18.jpg": "/React-app/static/media/img3_18.7f29bed118fc508953c5.jpg",
     "static/media/img4_18.jpg": "/React-app/static/media/img4_18.17ee6722902da5e18fcc.jpg",
     "static/media/img3_12.jpg": "/React-app/static/media/img3_12.2a95aa87a87df0b48700.jpg",
+    "static/media/book-4.jpg": "/React-app/static/media/book-4.7c3ca6e3f035d00887d0.jpg",
     "static/media/img3_13.jpg": "/React-app/static/media/img3_13.7dfa2e3ee77d5e09a57f.jpg",
+    "static/media/book-6.jpg": "/React-app/static/media/book-6.3c45ea12aefbb5623f50.jpg",
     "static/media/img3_15.jpg": "/React-app/static/media/img3_15.298512dd57a7ceac7cfb.jpg",
     "static/media/img2_2.jpg": "/React-app/static/media/img2_2.af32305ea474b7597d36.jpg",
     "static/media/img3_11.jpg": "/React-app/static/media/img3_11.6f918c9a65b2e0c4f222.jpg",
@@ -30,6 +35,7 @@
     "static/media/img4_12.jpg": "/React-app/static/media/img4_12.83b7b9b3ad93b0ac8684.jpg",
     "static/media/img4_13.jpg": "/React-app/static/media/img4_13.99807b1875a8aa14621b.jpg",
     "static/media/img7_2.jpg": "/React-app/static/media/img7_2.0b5960289ba113d24b6a.jpg",
+    "static/media/book-7.jpg": "/React-app/static/media/book-7.138c11205c68d7207e37.jpg",
     "static/media/img2_16.jpg": "/React-app/static/media/img2_16.b0567a86a0cc7184e2e4.jpg",
     "static/media/img4_17.jpg": "/React-app/static/media/img4_17.4e578fe385cd99a347cd.jpg",
     "static/media/img3_2.jpg": "/React-app/static/media/img3_2.41f3f5724140546e5556.jpg",
@@ -148,10 +154,10 @@
     "static/media/img1_27.jpg": "/React-app/static/media/img1_27.be84690beb48c00a7500.jpg",
     "index.html": "/React-app/index.html",
     "main.3a75307c.css.map": "/React-app/static/css/main.3a75307c.css.map",
-    "main.164f50e1.js.map": "/React-app/static/js/main.164f50e1.js.map"
+    "main.0a880deb.js.map": "/React-app/static/js/main.0a880deb.js.map"
   },
   "entrypoints": [
     "static/css/main.3a75307c.css",
-    "static/js/main.164f50e1.js"
+    "static/js/main.0a880deb.js"
   ]
 }
