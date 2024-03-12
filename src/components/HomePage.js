@@ -25,7 +25,7 @@ export const HomePage = () => {
       <div className="hover-text-one">
         <NavLink to="/category2">
           <figure className="effect-text-one">
-            <img src="book-2.jpg" alt=""/>
+            <img src="../images/book-2.jpg" alt=""/>
             <figcaption>
 	            <h3>Учебная и научная</h3>
               <span>литература</span>
