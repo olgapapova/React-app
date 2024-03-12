@@ -24,7 +24,7 @@ export const Basket = () => {
   
   let listOrder = infoBook.map((v,i) =>
     <div className="clearfix" key={i}>
-      <img className="BasketImg" src={"/"+v.image}/>
+      <img className="BasketImg" src={"/React-app/static/media/"+v.image}/>
       <div className="backBookText">
         <div className="BasketBook">{v.nameBook}</div>
         <div className="BasketBook">{v.price} руб.</div>
