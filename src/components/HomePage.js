@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import book1 from "../images/book-1.jpg"
 
 import './HomePage.css';
 
@@ -11,7 +12,7 @@ export const HomePage = () => {
       <div className="hover-text-one">
         <NavLink to="/category1">
           <figure className="effect-text-one">
-            <img src="book-1.jpg" alt=""/>
+            <img src={book1} alt=""/>
             <figcaption>
 	            <h3>Художественная</h3>
               <span>литература</span>
