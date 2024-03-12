@@ -32,7 +32,7 @@ const BooksListCategory = (props) => {
   return (
     <>
     <div className="CategoryBook">
-      <NavLink to="/:bookName" onClick={bookOpen}><img className="Image" src={"/"+image}/></NavLink><br/>
+      <NavLink to="/:bookName" onClick={bookOpen}><img className="Image" src={"/React-app/static/media/"+image}/></NavLink><br/>
       <div className="TextBookName">{name}</div>
       <div className="TextBook">{author}</div>
       <div className="TextBookName">{price} руб.</div>

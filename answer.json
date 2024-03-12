@@ -1,5 +1,5 @@
 {"list":[
-    {"id":101, "category":1, "nameBook":"Полночь в кафе 'Чёрный дрозд'", "price":20, "author":"Уэббер Хэзер", "image":"img1_1.jpg"},
+    {"id":101, "category":1, "nameBook":"Полночь в кафе 'Чёрный дрозд'", "price":20, "author":"Уэббер Хэзер", "image":"img1_1.7fb7c23a2ec3dc17bd12.jpg"},
     {"id":102, "category":1, "nameBook":"Ольга", "price":8, "author":"Бернхард Шлинк", "image":"img1_2.jpg"},
     {"id":103, "category":1, "nameBook":"Где живет счастье", "price":7, "author":"Джоджо Мойес", "image":"img1_3.jpg"},
     {"id":104, "category":1, "nameBook":"Весь невидимый нам свет", "price":9, "author":"Дорр Энтони", "image":"img1_4.jpg"},

@@ -98,7 +98,7 @@ export const Bookstore = () => {
             <div><NavLink to="/login"><img className="ShopCartButton" src={avt}/></NavLink></div> 
           </div>
           <div className="HeaderConteyner3">
-            <div className="sch">{schCount}</div>
+          <div className="sch">{schCount}</div>
             <div><img onClick={()=> dispatch( openOrClose(cartOpen ? false : true) )} className={`ShopCartButton ${cartOpen && 'active'}`} src={karzina}/></div>
             {cartOpen && (
               <div className="ShopCart">
