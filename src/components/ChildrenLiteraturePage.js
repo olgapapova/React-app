@@ -18,6 +18,9 @@ export const ChildrenLiteraturePage = () => {
     }
   }
   componentF();
+  let nd= <div className="noData">нет данных</div>
+  let zd= <div className="noData">Загрузка данных...</div>
+  let od= <div className="noData">"error: "+{books.dataLoadError}</div>
 
   return (
     <>
@@ -25,10 +28,10 @@ export const ChildrenLiteraturePage = () => {
         <NavLink to="/">Главная</NavLink><span> &gt; Детская литература</span>
       </div>
       <div>
-        { (books.dataLoadState===0) && "нет данных" }
-        { (books.dataLoadState===1) && "Загрузка данных..." }
+        { (books.dataLoadState===0) && nd }
+        { (books.dataLoadState===1) && zd }
         { (books.dataLoadState===2) &&  booksList }
-        { (books.dataLoadState===3) && "error: "+books.dataLoadError }
+        { (books.dataLoadState===3) && od }
       </div>
     </>
 );

@@ -19,6 +19,9 @@ export const PoetryPage = () => {
     }
   }
   componentF();
+  let nd= <div className="noData">нет данных</div>
+  let zd= <div className="noData">Загрузка данных...</div>
+  let od= <div className="noData">"error: "+{books.dataLoadError}</div>
 
   return (
     <>
@@ -26,7 +29,10 @@ export const PoetryPage = () => {
         <NavLink to="/">Главная</NavLink><span> &gt; Стихи</span>
       </div>
       <div>
-        {booksList}
+        { (books.dataLoadState===0) && nd }
+        { (books.dataLoadState===1) && zd }
+        { (books.dataLoadState===2) &&  booksList }
+        { (books.dataLoadState===3) && od }
       </div>
     </>
 );
