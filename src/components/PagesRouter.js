@@ -26,9 +26,9 @@ export const PagesRouter = () => {
           
     return (
       <Routes>
+        <Route path="/" element={<HomePage/>} />
         <Route path="/register" element={<RegisterPage/>} />
         <Route path="/login" element={<LoginPage/>} />
-        <Route path="/" element={<HomePage/>} />
         <Route path="/aboutUs" element={<AboutUsPage/>} />
         <Route path="/payment" element={<PaymentPage/>} />
         <Route path="/category1" element={<FictionPage/>} />

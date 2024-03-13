@@ -1,5 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
+//let listBooks=require('../answer.json');
+
 const initialState={
   dataLoadState: 0, // 0 - not loaded, 1 - is loading, 2 - loaded, 3 - error
   dataLoadError: null,
