@@ -26,6 +26,7 @@ export const PagesRouter = () => {
           
     return (
       <Routes>
+        <Route path="/React-app" element={<HomePage/>} />
         <Route path="/" element={<HomePage/>} />
         <Route path="/register" element={<RegisterPage/>} />
         <Route path="/login" element={<LoginPage/>} />
